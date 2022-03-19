@@ -1,0 +1,24 @@
+.hotel_display{
+
+}
+
+.hotel_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.hotel{
+
+}
+
+.hotel_image{
+  height: 250px;
+  width: 350px;
+}
+
+.hotel_name{
+
+}

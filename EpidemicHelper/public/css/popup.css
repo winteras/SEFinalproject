@@ -1,0 +1,71 @@
+
+/* 變數命名 */
+:root {
+    --gray: rgb(124, 142, 177);
+    --white: rgb(255, 255, 255);
+    --border: 1px solid rgb(162, 176, 205);
+    --border-radius: 4px 4px 4px 4px;
+  }
+  
+
+.popup-form{
+    display: none;
+    width: 300px;
+    padding: 10px;
+    background-color: lightcyan;
+    position: absolute;
+    z-index: 1000;
+    margin: 0 auto;
+
+    /*頁面置中*/
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.form-title{
+    display: flex;
+    justify-content: center;
+    color: rgb(110, 116, 146);
+    letter-spacing: 0px;
+}
+
+.form-top-row{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+}
+
+.close-icon{
+    position: relative;
+    flex: 0 1 12px;
+    height: 12px;
+    width: 12px;
+    min-width: 12px;
+    margin: 10px 0px 7px;
+}
+
+.input{
+    display: flex;
+    background-color: white;
+    border:  var(--border);
+    border-radius:  var(--border-radius);
+    color: white;
+    letter-spacing: 0px;
+    align-items: center;
+    padding: 13px 12px 13px 12px;
+}
+
+.login-button{
+    display: flex;
+    background-color: rgb(97, 94, 237);
+    border-radius: var(--border-radius);
+    color: rgb(251, 251, 251);
+    letter-spacing: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 12px 13px 12px;
+}
